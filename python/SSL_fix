@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # Author: Pentestical
 # Titel: Fehlercode "SSL_ERROR_RX_RECORD_TOO_LONG" - hier die Lösung
 # Beschreibung: In 3 Schritten den Fehler fixen

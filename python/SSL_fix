@@ -9,7 +9,7 @@ import ssl
 # 2) füge die folgende Zeile hinzu, um SSL Fehlermeldungen zu ignorieren:
 requests.packages.urllib3.disable_warnings()
 
-# 3) wenn du die Meldung bekommst, hast du die Methode "requests" vermutlich benutzt (um eine Web-Anfrage zu stellen). Suche im Code nach ALLEN requests, und füge ganz ans
+# 3) diese Fehlermeldung bedeutet, dass du vermutlich die Methode "requests" benutzt im Code (um eine Web-Anfrage zu stellen). Suche im Code nach ALLEN requests, und füge ganz ans
 # Ende noch hinzu "verify=False". Beispiel, statt:
 
 requests.get(url, headers=headers)
